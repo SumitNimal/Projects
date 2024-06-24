@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+body{
+    background-color: #FFDD4A;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: #ffffff;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 8px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(255, 6, 6);
+    cursor: default;
+    position: relative;
+}
+.search-movie{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.movie-title-search{
+    width: 490px;
+    padding: 16px 20px;
+    background-color: #5ADBFF;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.search-icon{
+    height: 32px;
+    width: 34px;
+}
+.search-button{
+    background-color:#FFDD4A;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+.search-button:hover {
+    background-color:#140964;
+}
+
+
+.title{
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: 800;
+    background-color: #FE9000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+}
+.release-rating-runtime{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #094074;
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    box-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.plot{
+    font-size: 18px;
+    background-color: #3C6997;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px black;
+}
+.movie-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.movie-poster{
+    border: 10px solid  #FFDD4A;
+    box-shadow: 0 0 20px #0c0e04;
+}
+.search-result{
+    background-color:  #3C6997;
+    width: 500px;
+    max-height: 400px;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    top: 75px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+    box-shadow:  0 0 10px black;
+}
+.search-result-item{
+    display: flex;
+    gap: 10px;
+    border: 2px solid  #FFDD4A;
+}
+.searched-item-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.searched-poster{
+    height: 175px;
+}
+.search-result-not-active{
+    z-index: -1;
+}

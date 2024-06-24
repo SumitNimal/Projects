@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./convert.png" type="image/png">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">Currency Converter</h1>
+        <div>
+            <input type="text" value="100.00" class="amount">
+        </div>
+        <div class="main-div">
+
+
+
+            <div class="from">
+                <img src="https://flagsapi.com/US/flat/64.png" class="flag flag-from">
+                <select class="select-currency select-currency-from">
+                </select>
+            </div>
+
+            <img src="arrow.png" class="convert-icon">
+
+            <div class="to">
+                <img src="https://flagsapi.com/IN/flat/64.png" class="flag flag-to">
+                <select class="select-currency select-currency-to">
+                </select>
+            </div>
+        </div>
+        <p class="result">100.00 USD = 8352.97 INR</p>
+        <button class="btn">Get Exchange Rate</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

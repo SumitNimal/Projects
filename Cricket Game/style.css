@@ -1,0 +1,86 @@
+.action-image-div {
+    background-color: rgb(15, 189, 237);
+    display: inline-block;
+    border-radius: 110px;
+    border: solid;
+}
+
+.action-image {
+    height: 200px;
+    width: 200px;
+    object-fit:contain;
+    object-position: center;
+}
+
+.action-text-div {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: solid;
+    background-color: rgb(13, 160, 123);
+}
+
+.action-div {
+    width: 400px;
+    display: flex;
+    background-color: rgb(250, 87, 0);
+    vertical-align: top;
+    border: solid;
+}
+
+.action-text {
+    color: rgb(245, 245, 245);
+    font-family: Roboto;
+    font-size: 75px;
+    font-weight: 800;
+    transition: all 0.5s;
+}
+button{
+    padding: 20px;
+    background-color: rgb(153, 226, 76);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 0px 0px 10px black;
+    transition: background-color 0.2s,
+    color 0.2s;
+    border: solid;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.play-div{
+    background-color: blueviolet;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid;
+}
+.scorecard{
+    height: 70px;
+    background-color: rgb(0, 162, 255);
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    border: solid;
+}
+p{
+    margin: 10px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.outer{
+    background-color: rgb(177, 255, 177);
+    gap: 10px;
+    padding: 10px;
+    width: 406px;
+    border: dotted;
+    border-color: blue;
+}

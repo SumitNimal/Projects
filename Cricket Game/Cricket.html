@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="outer">
+        <div class="action-div">
+            <div class='action-image-div'>
+                <img src="logo.png" class="action-image ">
+            </div>
+            <div class="action-text-div">
+                <p class="action-text" style="font-size: 50px ;">Cricket</p>
+            </div>
+        </div>
+        <div class="play-div">
+            <div class="button-div">
+                <button onclick="
+                if(canPlay === 1) change();
+            " class="play-button">PLAY</button>
+                <button onclick="
+            resetGame();
+            " class="replay-button">REPLAY</button>
+            </div>
+            <div class="scorecard">
+                <p class="runs">Runs : 0</p>
+                <p class="ball-faced">Ball Played : 0</p>
+            </div>
+        </div>
+    </div>
+    <script src="sample.js"></script>
+</body>
+
+</html>
